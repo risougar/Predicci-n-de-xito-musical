@@ -61,6 +61,4 @@ El modelo devuelve una **probabilidad** de éxito para cada canción (0 a 1). El
 - `scikit-learn` — escalado, KMeans, PCA, regresión logística, métricas
 - `matplotlib` · `seaborn` — visualización estática
 - `plotly` — visualización 3D interactiva
-- **Power BI** — dashboard final
-
 ---
