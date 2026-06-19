@@ -47,11 +47,6 @@ Se define **éxito musical** como `popularity ≥ 70`, lo que supone aproximadam
 
 El modelo devuelve una **probabilidad** de éxito para cada canción (0 a 1). El umbral es ajustable según el objetivo de negocio:
 
-```python
-UMBRAL = 0.5  # ← ajustar según criterio de negocio
-y_pred = (y_prob >= UMBRAL).astype(int)
-```
-
 | Umbral | Efecto | Cuándo usarlo |
 |--------|--------|---------------|
 | **Alto (ej. 0.8)** | Menos falsos positivos, más falsos negativos | Cuando la inversión por canción es alta y no queremos malgastarla |
