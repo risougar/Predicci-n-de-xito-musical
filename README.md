@@ -10,13 +10,13 @@ Este proyecto aplica técnicas de ciencia de datos sobre un dataset de canciones
 
 > **¿Qué características sonoras determinan que una canción sea un éxito comercial?**
 
-El pipeline completo cubre desde la ingesta y limpieza de datos hasta la exportación de resultados para un dashboard en Power BI, pasando por análisis exploratorio, clustering no supervisado y regresión logística con umbral de clasificación ajustable por criterio de negocio.
+El pipeline completo cubre la ingesta y limpieza de datos, el análisis exploratorio y clustering no supervisado así como la regresión logística con umbral de clasificación ajustable por criterio de negocio.
 
 ## 📊 Resultados principales
 
 ### Variable objetivo
 
-Se define **éxito musical** como `popularity ≥ 70`, lo que supone aproximadamente el **5% del catálogo**. El dataset presenta un desbalanceo severo (clase 0: ~95%, clase 1: ~5%) que se gestiona con `class_weight='balanced'` en el modelo.
+Se define **éxito musical** como `popularity ≥ 70`, lo que supone aproximadamente el **5% del catálogo**. El dataset presenta un desbalanceo severo (clase 0: ~95%, clase 1: ~5%) que se gestiona en el modelo de regresión logística.
 
 ### Clustering: 7 segmentos musicales
 
