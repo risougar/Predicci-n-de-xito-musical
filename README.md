@@ -37,7 +37,7 @@ Se define **éxito musical** como `popularity ≥ 70`, lo que supone aproximadam
 - 6 dummies de `cluster_nombre` (One-Hot Encoding, drop_first=True)
 - Variables dummies de `n_artistas` (One-Hot Encoding, drop_first=True)
 
-**Decisión de codificación:** `cluster_nombre` sustituye a `track_genre` (114 géneros → 7 grupos coherentes), evitando la maldición de la dimensionalidad.
+**Decisión de codificación:** `cluster` sustituye a `track_genre` (114 géneros → 7 grupos coherentes), evitando la maldición de la dimensionalidad.
 
 **Evaluación:** Matriz de confusión + Curva ROC + AUC + coeficientes estandarizados
 
