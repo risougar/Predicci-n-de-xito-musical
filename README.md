@@ -1,4 +1,4 @@
-# 🎵 Predictor de exito musical en Spotify: 
+# 🎵 Predictor de exito musical en Spotify
 
 https://claude.ai/public/artifacts/81890f3f-df32-4fff-8643-0ba2c9faa0f3
 
