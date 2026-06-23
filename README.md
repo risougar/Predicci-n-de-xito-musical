@@ -1,4 +1,6 @@
-# 🎵 Predictor de exito musical en Spotify: https://claude.ai/public/artifacts/81890f3f-df32-4fff-8643-0ba2c9faa0f3
+# 🎵 Predictor de exito musical en Spotify: 
+
+https://claude.ai/public/artifacts/81890f3f-df32-4fff-8643-0ba2c9faa0f3
 
 Análisis completo de datos musicales de Spotify para identificar los factores que determinan el éxito comercial de una canción, combinando clustering de géneros musicales y modelado predictivo con regresión logística.
 
